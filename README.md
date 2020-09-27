@@ -2,4 +2,4 @@ I have developed a computational-mathematical multiscale model. The model requir
 
 Algorithm I developed published at:
 
-https://www.biorxiv.org/content/10.1101/159616v1.full
+https://www.nature.com/articles/s41559-020-1157-y

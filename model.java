@@ -8,7 +8,7 @@ import java.util.*;
 
  
 public class model {
-	public static String version="30 april 2012";
+	public static String version="2019";
 	MersenneTwisterFast random;
 	public int mag=1;
 	public int timesteps=-1;

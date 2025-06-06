@@ -15,7 +15,7 @@ import java.util.*;
  // Change so the output file can be easily read with matlab
  
 public class prosCA3 {
-	public static String version="30 april 2012";
+	public static String version=" 2020";
 	MersenneTwisterFast random;
 	public int mag=1;
 	//public int movie=0;

@@ -9,7 +9,7 @@ import java.util.*;
 import java.io.*;
 
 public class Vis3 extends JApplet implements ActionListener{
-	public static String version="21st June 2012";
+	public static String version="21st June 2020";
 	final static Color bg = Color.white;
 	final static Color fg = Color.black;
 	Dimension totalSize;

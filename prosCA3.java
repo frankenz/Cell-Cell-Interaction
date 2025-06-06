@@ -9,8 +9,7 @@ import java.util.*;
 
 /**
  *
- * @author David Basanta
- * email : david@CancerEvo.org
+ * @author Ziv Frankenstein
  */
  
  // Change so the output file can be easily read with matlab

@@ -1,0 +1,61 @@
+Size  = 1000
+
+timesteps = 20000
+
+kDe = 0.108
+
+kDt = 0.216
+
+mdeDecayRate = 0.01   # was 0.001
+
+# Same for the basal membrane
+
+bmDecayRate = 0.004 # was 0.0001
+
+# A probability should never be over 1 or lower than 0. What are the chances of basal cells of committing apoptosis?
+
+probabilityOfApoptosisBasal = 0.1
+
+# Alternatively, what is the probability of a normal cell of becoming necrotic?
+
+probabilityOfNecrosis = 0.007
+
+# We assume that everywhere there is a certain amount of ECM that needs to be degraded. The higher, the tougher it gets to be a tumour cell
+
+densityECM = 0.2   # was 0.15
+
+# Stromal cells also produce membrane at this rate each time step:
+
+stromalMembraneProductionRate = 0.0003 # was 0.00003
+# This corresponds to the production of Basal membrane by basal cells
+
+basalCellBMProductionRateConstant = 0.0002
+
+# How quicky the tgf-b disappears from the simulation
+
+tgfbDecayRate = 0.003  # was 0.001
+
+# This is the rate of consumption of TGF-B by luminal cells
+
+luminalCellTGFBconsumptionRateConstant = 0.0075
+
+# ECM TGFB consumption per unit of ECM
+
+ECMTGFBconsumption = 0.000001
+
+# TGFB threshold for apoptosis of tumour cells
+
+abnormalLuminalCellApoptosisThreshold = 0.005
+
+stromalTGFBswitch = 0.2 # was 0.1
+
+# And this would be the same but for production of TGF-B
+
+basalCellTGFBproductionRate = 0.0000001
+mutationRate = 0.3 
+densityMonocytes = 0.02
+densityStroma = 0.15
+stromalTGFBproduction = 0.000001
+abnormalLuminalCellMDEProductionRateConstant = 0.8
+abnormalLuminalCellTGFBProductionRateConstant = 0.8
+OutName = 300-StromoMut-0.3-Mono-0.02-Stro-0.15-StroTGF-0.000001-MDE-0.8-TGFB-0.8

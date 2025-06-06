@@ -1,3 +1,4 @@
+/** A simple interface (simpler than List) for accessing random-access objects without changing their size.  Adhered to by Bag, IntBag, and DoubleBag */
 
 public interface Indexed
     {
@@ -10,6 +11,6 @@ public interface Indexed
     public Object setValue(final int index, final Object value)
         throws IndexOutOfBoundsException, IllegalArgumentException;
     /** Throws an IndexOutOfBoundsException if index is inappropriate.  Not called get() because
-        this would conflict with get() methods in IntarrayFF etc. which don't return objects. */
+        this would conflict with get() methods in IntBag etc. which don't return objects. */
     public Object getValue(final int index);
     }

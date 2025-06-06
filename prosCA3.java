@@ -1,7 +1,6 @@
 /*
  * prosCA.java
  *
- * Created on October 26, 2007, 11:49 AM
  */
 
 

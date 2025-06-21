@@ -3,7 +3,7 @@
 A computational-mathematical multiscale model. The model requires a set of partial differential equations (PDE), a set life-cycle flowcharts and a cellular automaton framework to integrate them (1).
 
 Reference:
-1. A Unique s•	Stromal reactivity differentially drives tumour cell evolution and prostate cancer progression. Frankenstein Z, Basanta D, Franco OE, Gao Y, Javier RA, Strand DW, Lee M, Hayward SW, Ayala G, Anderson A. Nature Ecology & Evolution. 2020 May 11.
+1. Stromal reactivity differentially drives tumour cell evolution and prostate cancer progression. Frankenstein Z, Basanta D, Franco OE, Gao Y, Javier RA, Strand DW, Lee M, Hayward SW, Ayala G, Anderson A. Nature Ecology & Evolution. 2020 May 11.
  
 Abstract
 

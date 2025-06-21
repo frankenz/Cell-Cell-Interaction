@@ -1,11 +1,10 @@
-# Cell-cell interaction multiscale mathematical model
-# Multiscale mathematical model for Prostate cancer progression
+# Cell-Cell Interaction in Prostate Cancer 
 
-A computational-mathematical multiscale model. The model requires a set of partial differential equations (PDE), a set life-cycle flowcharts and a cellular automaton framework to integrate them.
+A computational-mathematical multiscale model. The model requires a set of partial differential equations (PDE), a set life-cycle flowcharts and a cellular automaton framework to integrate them (1).
 
-Publication: https://www.nature.com/articles/s41559-020-1157-y
-
-
+Reference:
+1. A Unique s•	Stromal reactivity differentially drives tumour cell evolution and prostate cancer progression. Frankenstein Z, Basanta D, Franco OE, Gao Y, Javier RA, Strand DW, Lee M, Hayward SW, Ayala G, Anderson A. Nature Ecology & Evolution. 2020 May 11.
+ 
 Abstract
 
 Prostate cancer (PCa) progression is a complex eco-evolutionary process driven by the feedback between evolving tumour cell phenotypes and microenvironmentally driven selection. To better understand this relationship, we used a multiscale mathematical model that integrates data from biology and pathology on the microenvironmental regulation of PCa cell behaviour. Our data indicate that the interactions between tumour cells and their environment shape the evolutionary dynamics of PCa cells and explain overall tumour aggressiveness. A key environmental determinant of this aggressiveness is the stromal ecology, which can be either inhibitory, highly reactive (supportive) or non-reactive (neutral). Our results show that stromal ecology correlates directly with tumour growth but inversely modulates tumour evolution. This suggests that aggressive, environmentally independent PCa may be a result of poor stromal ecology, supporting the concept that purely tumour epithelium-centric metrics of aggressiveness may be incomplete and that incorporating markers of stromal ecology would improve prognosis.
@@ -16,7 +15,7 @@ a, Interaction network of key model variables. Interactions between cells (colou
 
 
 
-Methods
+Method
 
 Multiscale prostate peripheral zone model
 

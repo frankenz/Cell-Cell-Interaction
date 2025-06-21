@@ -2,8 +2,7 @@
 
 A computational-mathematical multiscale model. The model requires a set of partial differential equations (PDE), a set life-cycle flowcharts and a cellular automaton framework to integrate them (1).
 
-Reference:
-1. Stromal reactivity differentially drives tumour cell evolution and prostate cancer progression. Frankenstein Z, Basanta D, Franco OE, Gao Y, Javier RA, Strand DW, Lee M, Hayward SW, Ayala G, Anderson A. Nature Ecology & Evolution. 2020 May 11.
+
  
 Abstract
 
@@ -29,3 +28,6 @@ The model we developed builds on an HCA model. The definition of an HCA model re
 Tumour cells in the model have two continuously variable phenotypes, namely growth factor (γ) and MMP (ζ) production. These traits are passed from a parent tumour cell to its two daughter cells with some small variation, chosen at random from an interval equally weighted in both directions to avoid biased drift. The model is agnostic with respect to specific biological mechanisms that underlie this drift, which could include gradual accumulation of mutations, regulation of gene transcription by epigenetics or aneuploidy, or changes in the number or structure of organelles, for example. The evolution of these phenotypes in time and space is an important consideration of this work.
 
 The switch between stroma (S) and reactive stroma (RS) phenotypes is driven by the growth factor stimulus. Reactive stromal cells are activated if the level of growth factor (G) is above the threshold GRS and are deactivated if the growth factor level G falls below the threshold GRS.
+
+Reference:
+1. Stromal reactivity differentially drives tumour cell evolution and prostate cancer progression. Frankenstein Z, Basanta D, Franco OE, Gao Y, Javier RA, Strand DW, Lee M, Hayward SW, Ayala G, Anderson A. Nature Ecology & Evolution. 2020 May 11.
